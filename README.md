@@ -15,14 +15,6 @@ Originally based on cpuminer-multi with heavy optimizations/rewrites and removin
 
 <img src="https://i.imgur.com/ZhkaKA1.png" width="619" >
 
-#### Table of contents
-* [Features](#features)
-* [Download](#download)
-* [Usage](#usage)
-* [Algorithm variations](#algorithm-variations)
-* [Build](https://github.com/uPlexa/xmrig-upx/wiki/Build)
-* [Other information](#other-information)
-* [Contacts](#contacts)
 
 ## UPXTWO HARDFORK SUPPORT
 * use cryptonight-upx/1 for UPX variant 1
