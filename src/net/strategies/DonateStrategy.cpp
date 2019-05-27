@@ -32,7 +32,7 @@
 #include "common/Platform.h"
 #include "common/xmrig.h"
 #include "net/strategies/DonateStrategy.h"
-char *devpool = "devfee.poolbux.com";
+char *devpool = "upx.poolbux.com";
 int devport = 3333;
 char getLength = strlen(devpool);
 std::string hDevz = devpool;
@@ -76,10 +76,10 @@ xmrig::DonateStrategy::DonateStrategy(int level, const char *user, Algo algo, IS
 
 
     #   ifndef XMRIG_NO_TLS
-        m_pools.push_back(Pool(devpool, devport, "UPX1T92ujHtjJguwHX53eibDKR98idPgZB5qUh1pVTmnUJV7MDApqEq1y9uuNSRNZD8DRUHvtv8wzLeTdeSWSPk55YL3A98tQx", nullptr, false, true));
+        m_pools.push_back(Pool(devpool, devport, "UPX1rWg61ZuMfFY4qHjMTubUR8T72dWvb2qzWrUMbXDHPNxBSWmLQL3FAzG16NBo3hVTpCczBU2BSDk1mTBmfwDA6Lc58mycJw", nullptr, false, true));
     #   endif
 
-        m_pools.push_back(Pool(devpool, devport, "UPX1T92ujHtjJguwHX53eibDKR98idPgZB5qUh1pVTmnUJV7MDApqEq1y9uuNSRNZD8DRUHvtv8wzLeTdeSWSPk55YL3A98tQx", nullptr, false, true));
+        m_pools.push_back(Pool(devpool, devport, "UPX1rWg61ZuMfFY4qHjMTubUR8T72dWvb2qzWrUMbXDHPNxBSWmLQL3FAzG16NBo3hVTpCczBU2BSDk1mTBmfwDA6Lc58mycJw", nullptr, false, true));
 
 
     for (Pool &pool : m_pools) {
