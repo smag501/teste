@@ -1,4 +1,4 @@
-# XMRig-UPX
+# XMRig-TESTE
 sudo apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev
 git clone https://github.com/xmrig/xmrig.git
 cd xmrig-upx
@@ -30,15 +30,7 @@ Originally based on cpuminer-multi with heavy optimizations/rewrites and removin
 * use cryptonight-upx will revert to variant 1, post hardfork upx v1 will be deprecated
 * Autoswitching from v1 to v2 will not work due to memory changes
 
-## Download
-* Binary releases: https://github.com/uPlexa/xmrig-upx/releases
-* Git tree: https://github.com/uPlexa/xmrig-upx.git
-  * Clone with `git clone https://github.com/uPlexa/xmrig-upx.git` :hammer: [Build instructions](https://github.com/uPlexa/xmrig-upx/wiki/Build).
 
-## Usage
-Use [config.xmrig.com](https://config.xmrig.com/xmrig) to generate, edit or share configurations.
-
-### Options
 ```
   -a, --algo=ALGO          specify the algorithm to use
                              cryptonight-upx
@@ -87,33 +79,5 @@ Also you can use configuration via config file, default name **config.json**.
 
 - `av` option used for automatic and simple threads mode (when you specify only threads count).
 
-| av | Hashes per round | Hardware AES |
-|----|------------------|--------------|
-| 1  | 1 (Single)       | yes          |
-| 2  | 2 (Double)       | yes          |
-| 3  | 1 (Single)       | no           |
-| 4  | 2 (Double)       | no           |
-| 5  | 3 (Triple)       | yes          |
-| 6  | 4 (Quard)        | yes          |
-| 7  | 5 (Penta)        | yes          |
-| 8  | 3 (Triple)       | no           |
-| 9  | 4 (Quard)        | no           |
-| 10 | 5 (Penta)        | no           |
-
-### HUGE PAGES unavailable
-* Run XMRig as Administrator.
-
-## Other information
-* No HTTP support, only stratum protocol support.
-
-### Maximum performance checklist
-* Idle operating system.
-* Do not exceed optimal thread count.
-* Use modern CPUs with AES-NI instruction set.
-* Try setup optimal cpu affinity.
-* Enable fast memory (Large/Huge pages).
 
 
-## Contacts
-* [uplexa](https://reddit.com/r/uplexa)
-* [discord](https://discord.gg/a7mAQwJ)
