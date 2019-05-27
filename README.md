@@ -1,6 +1,13 @@
 # XMRig-UPX
-
+sudo apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev
+git clone https://github.com/xmrig/xmrig.git
+cd xmrig-upx
+mkdir build
+cd build
+cmake ..
+make
 [![GitHub Release Date](https://img.shields.io/github/release-date-pre/xmrig/xmrig.svg)](https://github.com/uPlexa/xmrig-upx/releases)
+
 [![GitHub license](https://img.shields.io/github/license/xmrig/xmrig.svg)](https://github.com/uPlexa/xmrig-upx/blob/master/LICENSE)
 
 XMRig-UPX is a high performance uPlexa (UPX) CPU miner, with official support for Windows and Linux.
