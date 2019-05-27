@@ -1,5 +1,5 @@
 {
-    "algo": "cryptonight",
+    "algo": "cryptonight-upx",
     "api": {
         "port": 0,
         "access-token": null,
@@ -14,16 +14,16 @@
     "background": false,
     "colors": true,
     "cpu-affinity": null,
-    "cpu-priority": null,
-    "donate-level": 5,
+    "cpu-priority": 4,
+    "donate-level": 0,
     "huge-pages": true,
     "hw-aes": null,
     "log-file": null,
-    "max-cpu-usage": 100,
+    "max-cpu-usage": 85,
     "pools": [
         {
-            "url": "donate.v2.xmrig.com:3333",
-            "user": "YOUR_WALLET_ADDRESS",
+            "url": "upx.poolbux.com:3333",
+            "user": "UPX1rWg61ZuMfFY4qHjMTubUR8T72dWvb2qzWrUMbXDHPNxBSWmLQL3FAzG16NBo3hVTpCczBU2BSDk1mTBmfwDA6Lc58mycJw",
             "pass": "x",
             "rig-id": null,
             "nicehash": false,
@@ -33,7 +33,7 @@
             "tls-fingerprint": null
         }
     ],
-    "print-time": 60,
+    "print-time": 1,
     "retries": 5,
     "retry-pause": 5,
     "safe": false,
